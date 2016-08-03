@@ -4,7 +4,7 @@ puppetdb_port: '8080'
 domains:
   - 'rc.hms.harvard.edu'
   - 'med.harvard.edu'
-  - 'orchestra.'
+  - 'orchestra'
 basic_info:
   - 'hostname'
   - 'born_on'
