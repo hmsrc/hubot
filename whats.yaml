@@ -1,0 +1,8 @@
+---
+puppetdb_host: 'puppetdb.rc.hms.harvard.edu' 
+puppetdb_port: '8080'
+domains:
+  - 'rc.hms.harvard.edu'
+  - 'med.harvard.edu'
+  - 'orchestra.'
+

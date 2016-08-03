@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/opt/boxen/nodenv/versions/0.10/bin/npm',
+1 verbose cli   'search',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'puppet' ]
+2 info using npm@3.10.5
+3 info using node@v0.10.36
+4 verbose node symlink /opt/boxen/nodenv/versions/0.10/bin/node
+5 silly mapToRegistry name -/all
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry data { raw: '-/all',
+8 silly mapToRegistry   scope: null,
+8 silly mapToRegistry   escapedName: null,
+8 silly mapToRegistry   name: null,
+8 silly mapToRegistry   rawSpec: '-/all',
+8 silly mapToRegistry   spec: '-/all',
+8 silly mapToRegistry   type: 'local' }
+9 silly mapToRegistry uri https://registry.npmjs.org/-/all
+10 info updateIndex /Users/matt/.npm/registry.npmjs.org/-/all/.cache.json
+11 verbose correctMkdir /Users/matt/.npm correctMkdir not in flight; initializing
+12 verbose type non_object_property_load
+13 verbose stack TypeError: Cannot read property '_updated' of undefined
+13 verbose stack     at /opt/nodes/0.10.36/lib/node_modules/npm/lib/cache/update-index.js:61:26
+13 verbose stack     at /opt/nodes/0.10.36/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+13 verbose stack     at Object.oncomplete (fs.js:108:15)
+14 verbose cwd /Users/matt/Development/hmsrc-hubot
+15 error Darwin 15.5.0
+16 error argv "node" "/opt/boxen/nodenv/versions/0.10/bin/npm" "search" "hubot-scripts" "puppet"
+17 error node v0.10.36
+18 error npm  v3.10.5
+19 error Cannot read property '_updated' of undefined
+20 error If you need help, you may report this error at:
+20 error     <https://github.com/npm/npm/issues>
+21 verbose exit [ 1, true ]
