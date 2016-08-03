@@ -10,6 +10,5 @@
   "hubot-shipit",
   "hubot-regex",
   "hubot-github",
-  "hubot-devopsreactions",
-  "hubot-jenkins"
+  "hubot-devopsreactions"
 ]
