@@ -12,5 +12,7 @@ module.exports = (robot) ->
     exec = require('child_process').exec
     whats_cmd = "whats #{host} -q -j"
     exec whats_cmd, (error, stdout, stderr) ->
+      message = ""
       for k,v of JSON.parse stdout
-         msg.send "*#{k}*: #{v}"
+         message = message + "*#{k}*: #{v}\n"
+      msg.send message
