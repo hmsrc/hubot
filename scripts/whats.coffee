@@ -13,4 +13,4 @@ module.exports = (robot) ->
     whats_cmd = "whats #{host} -q -j"
     exec whats_cmd, (error, stdout, stderr) ->
       for k,v of JSON.parse stdout
-         msg.send "#{k}: #{v}"
+         msg.send "*#{k}*: #{v}"
