@@ -1,8 +1,21 @@
 ---
-puppetdb_host: 'puppetdb.rc.hms.harvard.edu' 
+puppetdb_host: 'puppetdb.rc.hms.harvard.edu'
 puppetdb_port: '8080'
 domains:
   - 'rc.hms.harvard.edu'
   - 'med.harvard.edu'
   - 'orchestra.'
-
+basic_info:
+  - 'hostname'
+  - 'born_on'
+  - 'operatingsystem'
+  - 'operatingsystemrelease'
+  - 'manufacturer'
+  - 'productname'
+  - 'processor0'
+  - 'processorcount'
+  - 'memorysize'
+  - 'kernelrelease'
+  - 'ipaddress'
+  - 'macaddress'
+  - 'uptime'
