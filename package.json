@@ -6,6 +6,7 @@
   "description": "A bot for things!",
   "dependencies": {
     "hubot": "^2.19.0",
+    "hubot-alias": "^0.1.11",
     "hubot-devops-reactions": "^1.0.2",
     "hubot-devopsreactions": "0.0.2",
     "hubot-diagnostics": "0.0.1",

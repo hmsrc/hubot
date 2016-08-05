@@ -11,5 +11,6 @@
   "hubot-regex",
   "hubot-github",
   "hubot-grafana",
+  "hutbot-alias",
   "hubot-devopsreactions"
 ]
